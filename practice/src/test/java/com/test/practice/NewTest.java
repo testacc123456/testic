@@ -15,9 +15,9 @@ public class NewTest {
 	public void verifySeleniumBlog() {
 
 		String extentReportFile = System.getProperty("practice/test")
-				+ "\\extentReportFile.html";
+				+ "/extentReportFile.html";
 		String extentReportImage = System.getProperty("practice/test")
-				+ "\\extentReportImage.png";
+				+ "/extentReportImage.png";
 
 		// Create object of extent report and specify the report file path.
 		ExtentReports extent = new ExtentReports(extentReportFile, false);
