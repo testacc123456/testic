@@ -14,9 +14,9 @@ public class NewTest {
   @Test
 	public void verifySeleniumBlog() {
 
-		String extentReportFile = System.getProperty("user.dir")
+		String extentReportFile = System.getProperty("practice/test")
 				+ "\\extentReportFile.html";
-		String extentReportImage = System.getProperty("user.dir")
+		String extentReportImage = System.getProperty("practice/test")
 				+ "\\extentReportImage.png";
 
 		// Create object of extent report and specify the report file path.
@@ -59,7 +59,7 @@ public class NewTest {
 						+ extentTest.addScreenCapture(extentReportImage));
 
 		// Close application.
-		driver.quit();
+		driver.close();
 
 		extentTest.log(LogStatus.INFO, "Browser closed");
 

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17541" started-at="2017-03-21T17:44:41Z" finished-at="2017-03-21T17:44:58Z">
+  <suite name="Default suite" duration-ms="11183" started-at="2017-03-21T17:52:39Z" finished-at="2017-03-21T17:52:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17541" started-at="2017-03-21T17:44:41Z" finished-at="2017-03-21T17:44:58Z">
+    <test name="Default test" duration-ms="11183" started-at="2017-03-21T17:52:39Z" finished-at="2017-03-21T17:52:50Z">
       <class name="com.test.practice.NewTest">
-        <test-method status="PASS" signature="verifySeleniumBlog()[pri:0, instance:com.test.practice.NewTest@7cd62f43]" name="verifySeleniumBlog" duration-ms="17519" started-at="2017-03-21T18:44:41Z" finished-at="2017-03-21T18:44:58Z">
+        <test-method status="PASS" signature="verifySeleniumBlog()[pri:0, instance:com.test.practice.NewTest@685cb137]" name="verifySeleniumBlog" duration-ms="11156" started-at="2017-03-21T18:52:39Z" finished-at="2017-03-21T18:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySeleniumBlog -->
